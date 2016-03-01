@@ -54,6 +54,24 @@ filetype plugin indent on    " required
 " To ignore plugin indent changes, instead use:
 " filetype plugin on
 
+set background=dark
+
+" syntax enable
+" let g:solarized_termcolors=256
+" colorscheme solarized
+
+" syntax on
+" let base16colorspace=256
+" colorscheme base16-default
+"
+
+syntax on
+let g:rehash256 = 1
+" let g:molokai_original = 1
+colorscheme molokai
+
+"
+"
 "
 " Brief help
 " :PluginList       - lists configured plugins
