@@ -34,6 +34,7 @@ Plugin 'majutsushi/tagbar'
 Plugin 'edkolev/tmuxline.vim'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'christoomey/vim-tmux-navigator'
+Plugin 'nachumk/systemverilog.vim'
 
 " plugin from http://vim-scripts.org/vim/scripts.html
 " Plugin 'L9'
@@ -86,8 +87,43 @@ colorscheme molokai
 "
 " Get Vim-Airline to work/show up
 set laststatus=2
+let g:airline_powerline_fonts = 1
+if !exists('g:airline_symbols')
+   let g:airline_symbols = {}
+endif
+let g:airline_symbols.space = "\ua0"
+
+" unicode symbols
+let g:airline_left_sep = '»'
+let g:airline_left_sep = '▶'
+let g:airline_right_sep = '«'
+let g:airline_right_sep = '◀'
+let g:airline_symbols.linenr = '␊'
+let g:airline_symbols.linenr = '␤'
+let g:airline_symbols.linenr = '¶'
+let g:airline_symbols.branch = '⎇'
+let g:airline_symbols.paste = 'ρ'
+let g:airline_symbols.paste = 'Þ'
+let g:airline_symbols.paste = '∥'
+let g:airline_symbols.whitespace = 'Ξ'
+
+" airline symbols
+let g:airline_left_sep = ''
+let g:airline_left_alt_sep = ''
+let g:airline_right_sep = ''
+let g:airline_right_alt_sep = ''
+let g:airline_symbols.branch = ''
+let g:airline_symbols.readonly = ''
+let g:airline_symbols.linenr = ''
+
+"Strictly necessary for Powerline
+set encoding=utf-8
 
 
+
+
+"Important for terminal vim to work in cygwin.
+set term=xterm-256color
 
 
 
