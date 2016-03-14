@@ -1,1 +1,2 @@
 alias lall='ls -alh'
+alias tmux='tmux -2' #TERM=xterm-256color

@@ -36,6 +36,26 @@ Plugin 'airblade/vim-gitgutter'
 Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'nachumk/systemverilog.vim'
 
+" these may not all be useful or might slow things down. take a look
+Plugin 'sjl/gundo.vim'
+Plugin 'easymotion/vim-easymotion'
+Plugin 'xolox/vim-misc'
+Plugin 'xolox/vim-easytags'
+Plugin 'jceb/vim-orgmode'
+Plugin 'thinca/vim-quickrun'
+Plugin 'chrisbra/vim-diff-enhanced'
+Plugin 'honza/vim-snippets'
+Plugin 'Shougo/vimproc.vim'  " need to make $ make -f make_cygwin.mak
+Plugin 'hyiltiz/vim-plugins-profile'
+Plugin 'tpope/vim-abolish'
+Plugin 'myusuf3/numbers.vim'
+Plugin 'tpope/vim-speeddating'
+Plugin 'vim-scripts/YankRing.vim'
+Plugin 'tpope/vim-tbone'
+Plugin 'Shougo/vimshell.vim'
+
+Plugin 'edkolev/promptline.vim'
+
 " plugin from http://vim-scripts.org/vim/scripts.html
 " Plugin 'L9'
 " Git plugin not hosted on GitHub
@@ -125,5 +145,11 @@ set encoding=utf-8
 "Important for terminal vim to work in cygwin.
 set term=xterm-256color
 
-
+"let g:promptline_theme = 'airline_visual'
+let g:promptline_preset = {
+        \'a' : [ promptline#slices#host(), promptline#slices#user()],
+        \'b' : [ promptline#slices#cwd() ],
+        \'c' : [ promptline#slices#vcs_branch() ],
+        \'y' : [ promptline#slices#git_status() ],
+        \'warn' : [ promptline#slices#last_exit_code(),  promptline#slices#battery() ]}
 
