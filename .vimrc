@@ -109,7 +109,7 @@ colorscheme molokai
 set laststatus=2
 let g:airline_powerline_fonts = 1
 if !exists('g:airline_symbols')
-   let g:airline_symbols = {}
+	let g:airline_symbols = {}
 endif
 let g:airline_symbols.space = "\ua0"
 
@@ -145,11 +145,76 @@ set encoding=utf-8
 "Important for terminal vim to work in cygwin.
 set term=xterm-256color
 
+let git_sha_slice = {
+			\'function_name': 'git_sha',
+			\'function_body': [
+			\'function git_sha {',
+			\'  local sha',
+			\'  sha=$(git rev-parse --short HEAD 2>/dev/null) || return 1',
+			\'  printf "%s" "$sha"',
+			\'}']}
+
+
+let git_stash_num = {
+			\'function_name': 'git_stash_number',
+			\'function_body': [
+			\'function git_stash_number {',
+			\'  local stash_file',
+			\'  local num_stashed',
+			\'  local stashed_symbol="∂"',
+			\'  num_stashed=0',
+			\'  stash_file="$( git rev-parse --git-dir 2>/dev/null )/logs/refs/stash"',
+			\'  if [[ -e "${stash_file}" ]]; then',
+			\'    while IFS="" read -r wcline || [[ -n "$wcline" ]]; do',
+			\'      ((num_stashed++))',
+			\'    done < ${stash_file}',
+			\'    printf "%s%i" "$stashed_symbol" "$num_stashed"',
+			\'  fi',
+			\'}']}
+
+
+
+
+" from https://github.com/magicmonty/bash-git-prompt/blob/master/gitstatus.sh
+"let git_stash_num =  {
+"         \'function_name': 'git_stash_number',
+"         \'function_body': [
+"         \'function git_stash_number {',
+"         \'  local stash_file',
+"  	  \'  local num_stashed',
+"	  \'  local stashed_symbol="∂"',
+"	  \'  num_stashed=0',
+"	  \'  stash_file="$( git rev-parse --git-dir 2>/dev/null )/logs/refs/stash"',
+"         \'  if [[ -e "${stash_file}" ]]; then',
+"         \'    while IFS="" read -r wcline || [[ -n "$wcline" ]]; do',
+"         \'      ((num_stashed++))',
+"         \'    done < ${stash_file}',
+"	  \'    printf "%s%i" "$stashed_symbol" "$num_stashed"',
+"         \'  fi',
+"         \'}']}
+
+"let git_stash_number = {
+
+
+""}
+
+"Issue with Promptline: Must exit vim and reenter vim before creating another shell prompt customization
+" file. Or else it doesnt grab the changes you made since the last time you created a prompt customization
+
+"let g:promptline#slices#cwd({ 'dir_limit': 8 }) this causes issues if put in the preset
+" learn hashes in vim and in bash. how they work !!
+" promptline does slow the prompt down though
+"learn vimscript too !
+
 "let g:promptline_theme = 'airline_visual'
 let g:promptline_preset = {
-        \'a' : [ promptline#slices#host(), promptline#slices#user()],
-        \'b' : [ promptline#slices#cwd() ],
-        \'c' : [ promptline#slices#vcs_branch() ],
-        \'y' : [ promptline#slices#git_status() ],
-        \'warn' : [ promptline#slices#last_exit_code(),  promptline#slices#battery() ]}
+			\'a' : [ promptline#slices#host(), promptline#slices#user() ],
+			\'b' : [ promptline#slices#cwd({'dir_limit':8}) ],
+			\'c' : [ promptline#slices#vcs_branch() ],
+			\'y' : [ promptline#slices#git_status(), git_sha_slice, git_stash_num ],
+			\'z' : [ promptline#slices#jobs() ],
+			\'warn' : [ promptline#slices#last_exit_code(),  promptline#slices#battery() ]}
 
+"doesnt work unless you disable powerline symbols
+let g:promptline_symbols = {
+			\'dir_sep' : '/'}
