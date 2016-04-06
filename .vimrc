@@ -18,6 +18,7 @@ Plugin 'altercation/vim-colors-solarized'
 Plugin 'chriskempson/base16-vim'
 Plugin 'tomasr/molokai'
 Plugin 'scrooloose/nerdtree'
+Plugin 'scrooloose/nerdcommenter'
 Plugin 'tpope/vim-projectionist'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-commentary'
@@ -114,32 +115,85 @@ endif
 let g:airline_symbols.space = "\ua0"
 
 " unicode symbols
-let g:airline_left_sep = '»'
-let g:airline_left_sep = '▶'
-let g:airline_right_sep = '«'
-let g:airline_right_sep = '◀'
-let g:airline_symbols.linenr = '␊'
-let g:airline_symbols.linenr = '␤'
-let g:airline_symbols.linenr = '¶'
-let g:airline_symbols.branch = '⎇'
-let g:airline_symbols.paste = 'ρ'
-let g:airline_symbols.paste = 'Þ'
-let g:airline_symbols.paste = '∥'
+let g:airline_left_sep           = '»'
+let g:airline_left_sep           = '▶'
+let g:airline_right_sep          = '«'
+let g:airline_right_sep          = '◀'
+let g:airline_symbols.linenr     = '␊'
+let g:airline_symbols.linenr     = '␤'
+let g:airline_symbols.linenr     = '¶'
+let g:airline_symbols.branch     = '⎇'
+let g:airline_symbols.paste      = 'ρ'
+let g:airline_symbols.paste      = 'Þ'
+let g:airline_symbols.paste      = '∥'
 let g:airline_symbols.whitespace = 'Ξ'
 
 " airline symbols
-let g:airline_left_sep = ''
-let g:airline_left_alt_sep = ''
-let g:airline_right_sep = ''
-let g:airline_right_alt_sep = ''
-let g:airline_symbols.branch = ''
-let g:airline_symbols.readonly = ''
-let g:airline_symbols.linenr = ''
+let g:airline_left_sep           = ''
+let g:airline_left_alt_sep       = ''
+let g:airline_right_sep          = ''
+let g:airline_right_alt_sep      = ''
+let g:airline_symbols.branch     = ''
+let g:airline_symbols.readonly   = ''
+let g:airline_symbols.linenr     = ''
+
+let g:airline#extensions#whitespace#trailing_format          = 'T[%s]'
+let g:airline#extensions#whitespace#mixed_indent_format      = 'MI[%s]'
+let g:airline#extensions#whitespace#long_format              = 'L[%s]'
+let g:airline#extensions#whitespace#mixed_indent_file_format = 'MIF[%s]'
+
 
 "Strictly necessary for Powerline
 set encoding=utf-8
 
+" Remove trailing whitespaces
+"nnoremap <silent> <F5> :%s/\s\+$//<CR>
+nnoremap <silent> <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar>:nohl<CR>
 
+set tabstop=8
+set expandtab
+set shiftwidth=4
+set softtabstop=4
+set autoindent
+set smartindent
+set cindent
+
+set number
+nnoremap <F3> :NumbersToggle<CR>
+nnoremap <F4> :NumbersOnOff<CR>
+
+nmap <C-o> O <Esc>j
+nmap <CR> o<Esc>k
+
+" Vim easy align
+nmap ga <Plug>(EasyAlign)
+xmap ga <Plug>(EasyAlign)
+
+
+let g:easy_align_delimiters = {
+            \ '>': { 'pattern': '>>\|=>\|>' },
+            \ '/': {
+            \     'pattern':         '//\+\|/\*\|\*/',
+            \     'delimiter_align': 'l',
+            \     'ignore_groups':   ['!Comment'] },
+            \ ']': {
+            \     'pattern':       '[[\]]',
+            \     'left_margin':   0,
+            \     'right_margin':  0,
+            \     'stick_to_left': 0
+            \   },
+            \ ')': {
+            \     'pattern':       '[()]',
+            \     'left_margin':   0,
+            \     'right_margin':  0,
+            \     'stick_to_left': 0
+            \   },
+            \ 'd': {
+            \     'pattern':      ' \(\S\+\s*[;=]\)\@=',
+            \     'left_margin':  0,
+            \     'right_margin': 0
+            \   }
+            \ }
 
 
 "Important for terminal vim to work in cygwin.
