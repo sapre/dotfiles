@@ -1,0 +1,69 @@
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+<C-o>	/home/tesapre/.dotfiles/.vimrc	/^nmap <C-o> O <Esc>j$/;"	m	language:Vim
+<CR>	/home/tesapre/.dotfiles/.vimrc	/^nmap <CR> o<Esc>k$/;"	m	language:Vim
+<F3>	/home/tesapre/.dotfiles/.vimrc	/^nnoremap <F3> :NumbersToggle<CR>$/;"	m	language:Vim
+<F4>	/home/tesapre/.dotfiles/.vimrc	/^nnoremap <F4> :NumbersOnOff<CR>$/;"	m	language:Vim
+<F5>	/home/tesapre/.dotfiles/.vimrc	/^nnoremap <silent> <F5> :let _s=@\/<Bar>:%s\/\\s\\+$\/\/e<Bar>:let @\/=_s<Bar>:nohl<CR>$/;"	m	language:Vim
+APPRTL	/cygdrive/c/Catapult_TFS/Hardware/Apps/Pcap/Simulation/Makefile	/^APPRTL=$(APPSRC)\/RTL$/;"	m	language:Make
+APPRTL	/cygdrive/c/Catapult_TFS/Hardware/Apps/PcapV2/Simulation/Makefile	/^APPRTL=$(APPSRC)\/RTL$/;"	m	language:Make
+APPSRC	/cygdrive/c/Catapult_TFS/Hardware/Apps/Pcap/Simulation/Makefile	/^APPSRC=$(CATASRC)\/Hardware\/Apps\/Pcap$/;"	m	language:Make
+APPSRC	/cygdrive/c/Catapult_TFS/Hardware/Apps/PcapV2/Simulation/Makefile	/^APPSRC=$(CATASRC)\/Hardware\/Apps\/PcapV2$/;"	m	language:Make
+APP_SYNPROJ	/cygdrive/c/Catapult_TFS/Hardware/Apps/Pcap/Simulation/Makefile	/^APP_SYNPROJ=$(APPSRC)\/PikesPeak$/;"	m	language:Make
+APP_SYNPROJ	/cygdrive/c/Catapult_TFS/Hardware/Apps/PcapV2/Simulation/Makefile	/^APP_SYNPROJ=$(APPSRC)\/PikesPeak$/;"	m	language:Make
+CATASRC	/cygdrive/c/Catapult_TFS/Hardware/Apps/Pcap/Simulation/Makefile	/^CATASRC=C:\/Catapult_TFS$/;"	m	language:Make
+CATASRC	/cygdrive/c/Catapult_TFS/Hardware/Apps/PcapV2/Simulation/Makefile	/^CATASRC=C:\/Catapult_TFS$/;"	m	language:Make
+g:airline#extensions#whitespace#long_format	/home/tesapre/.dotfiles/.vimrc	/^let g:airline#extensions#whitespace#long_format              = 'L[%s]'$/;"	v	language:Vim
+g:airline#extensions#whitespace#mixed_indent_file_format	/home/tesapre/.dotfiles/.vimrc	/^let g:airline#extensions#whitespace#mixed_indent_file_format = 'MIF[%s]'$/;"	v	language:Vim
+g:airline#extensions#whitespace#mixed_indent_format	/home/tesapre/.dotfiles/.vimrc	/^let g:airline#extensions#whitespace#mixed_indent_format      = 'MI[%s]'$/;"	v	language:Vim
+g:airline#extensions#whitespace#trailing_format	/home/tesapre/.dotfiles/.vimrc	/^let g:airline#extensions#whitespace#trailing_format          = 'T[%s]'$/;"	v	language:Vim
+g:airline_left_alt_sep	/home/tesapre/.dotfiles/.vimrc	/^let g:airline_left_alt_sep       = ''$/;"	v	language:Vim
+g:airline_left_sep	/home/tesapre/.dotfiles/.vimrc	/^let g:airline_left_sep           = '»'$/;"	v	language:Vim
+g:airline_left_sep	/home/tesapre/.dotfiles/.vimrc	/^let g:airline_left_sep           = '▶'$/;"	v	language:Vim
+g:airline_left_sep	/home/tesapre/.dotfiles/.vimrc	/^let g:airline_left_sep           = ''$/;"	v	language:Vim
+g:airline_powerline_fonts	/home/tesapre/.dotfiles/.vimrc	/^let g:airline_powerline_fonts = 1$/;"	v	language:Vim
+g:airline_right_alt_sep	/home/tesapre/.dotfiles/.vimrc	/^let g:airline_right_alt_sep      = ''$/;"	v	language:Vim
+g:airline_right_sep	/home/tesapre/.dotfiles/.vimrc	/^let g:airline_right_sep          = '«'$/;"	v	language:Vim
+g:airline_right_sep	/home/tesapre/.dotfiles/.vimrc	/^let g:airline_right_sep          = '◀'$/;"	v	language:Vim
+g:airline_right_sep	/home/tesapre/.dotfiles/.vimrc	/^let g:airline_right_sep          = ''$/;"	v	language:Vim
+g:airline_symbols	/home/tesapre/.dotfiles/.vimrc	/^	let g:airline_symbols = {}$/;"	v	language:Vim
+g:airline_symbols	/home/tesapre/.dotfiles/.vimrc	/^let g:airline_symbols.branch     = '⎇'$/;"	v	language:Vim
+g:airline_symbols	/home/tesapre/.dotfiles/.vimrc	/^let g:airline_symbols.branch     = ''$/;"	v	language:Vim
+g:airline_symbols	/home/tesapre/.dotfiles/.vimrc	/^let g:airline_symbols.linenr     = '¶'$/;"	v	language:Vim
+g:airline_symbols	/home/tesapre/.dotfiles/.vimrc	/^let g:airline_symbols.linenr     = '␊'$/;"	v	language:Vim
+g:airline_symbols	/home/tesapre/.dotfiles/.vimrc	/^let g:airline_symbols.linenr     = '␤'$/;"	v	language:Vim
+g:airline_symbols	/home/tesapre/.dotfiles/.vimrc	/^let g:airline_symbols.linenr     = ''$/;"	v	language:Vim
+g:airline_symbols	/home/tesapre/.dotfiles/.vimrc	/^let g:airline_symbols.paste      = 'Þ'$/;"	v	language:Vim
+g:airline_symbols	/home/tesapre/.dotfiles/.vimrc	/^let g:airline_symbols.paste      = 'ρ'$/;"	v	language:Vim
+g:airline_symbols	/home/tesapre/.dotfiles/.vimrc	/^let g:airline_symbols.paste      = '∥'$/;"	v	language:Vim
+g:airline_symbols	/home/tesapre/.dotfiles/.vimrc	/^let g:airline_symbols.readonly   = ''$/;"	v	language:Vim
+g:airline_symbols	/home/tesapre/.dotfiles/.vimrc	/^let g:airline_symbols.space = "\\ua0"$/;"	v	language:Vim
+g:airline_symbols	/home/tesapre/.dotfiles/.vimrc	/^let g:airline_symbols.whitespace = 'Ξ'$/;"	v	language:Vim
+g:easy_align_delimiters	/home/tesapre/.dotfiles/.vimrc	/^let g:easy_align_delimiters = {$/;"	v	language:Vim
+g:promptline_preset	/home/tesapre/.dotfiles/.vimrc	/^let g:promptline_preset = {$/;"	v	language:Vim
+g:promptline_symbols	/home/tesapre/.dotfiles/.vimrc	/^let g:promptline_symbols = {$/;"	v	language:Vim
+g:rehash256	/home/tesapre/.dotfiles/.vimrc	/^let g:rehash256 = 1$/;"	v	language:Vim
+ga	/home/tesapre/.dotfiles/.vimrc	/^nmap ga <Plug>(EasyAlign)$/;"	m	language:Vim
+git_sha	/home/tesapre/.shell_prompt_custom_full_final7.sh	/^function git_sha {$/;"	f	language:Sh
+git_sha_slice	/home/tesapre/.dotfiles/.vimrc	/^let git_sha_slice = {$/;"	v	language:Vim
+git_stash_num	/home/tesapre/.dotfiles/.vimrc	/^let git_stash_num = {$/;"	v	language:Vim
+git_stash_number	/home/tesapre/.shell_prompt_custom_full_final7.sh	/^function git_stash_number {$/;"	f	language:Sh
+QUARTUS_SH	/cygdrive/c/Catapult_TFS/Hardware/Apps/Pcap/Simulation/Makefile	/^QUARTUS_SH=$(TOOL_QUARTUS)\/quartus\/bin64\/quartus_sh.exe$/;"	m	language:Make
+QUARTUS_SH	/cygdrive/c/Catapult_TFS/Hardware/Apps/PcapV2/Simulation/Makefile	/^QUARTUS_SH=$(TOOL_QUARTUS)\/quartus\/bin64\/quartus_sh.exe$/;"	m	language:Make
+SIMTYPE	/cygdrive/c/Catapult_TFS/Hardware/Apps/Pcap/Simulation/Makefile	/^SIMTYPE=Text$/;"	m	language:Make
+SIMTYPE	/cygdrive/c/Catapult_TFS/Hardware/Apps/PcapV2/Simulation/Makefile	/^SIMTYPE=Text$/;"	m	language:Make
+TOOL_MODELSIM	/cygdrive/c/Catapult_TFS/Hardware/Apps/Pcap/Simulation/Makefile	/^TOOL_MODELSIM=C:\\questasim64_10.4c$/;"	m	language:Make
+TOOL_MODELSIM	/cygdrive/c/Catapult_TFS/Hardware/Apps/PcapV2/Simulation/Makefile	/^TOOL_MODELSIM=C:\\questasim64_10.4c$/;"	m	language:Make
+TOOL_QUARTUS	/cygdrive/c/Catapult_TFS/Hardware/Apps/Pcap/Simulation/Makefile	/^TOOL_QUARTUS=C:\\altera\\15.1$/;"	m	language:Make
+TOOL_QUARTUS	/cygdrive/c/Catapult_TFS/Hardware/Apps/PcapV2/Simulation/Makefile	/^TOOL_QUARTUS=C:\\altera\\15.1$/;"	m	language:Make
+__promptline	/home/tesapre/.shell_prompt_custom_full_final7.sh	/^function __promptline {$/;"	f	language:Sh
+__promptline_battery	/home/tesapre/.shell_prompt_custom_full_final7.sh	/^function __promptline_battery {$/;"	f	language:Sh
+__promptline_cwd	/home/tesapre/.shell_prompt_custom_full_final7.sh	/^function __promptline_cwd {$/;"	f	language:Sh
+__promptline_git_status	/home/tesapre/.shell_prompt_custom_full_final7.sh	/^function __promptline_git_status {$/;"	f	language:Sh
+__promptline_host	/home/tesapre/.shell_prompt_custom_full_final7.sh	/^function __promptline_host {$/;"	f	language:Sh
+__promptline_jobs	/home/tesapre/.shell_prompt_custom_full_final7.sh	/^function __promptline_jobs {$/;"	f	language:Sh
+__promptline_last_exit_code	/home/tesapre/.shell_prompt_custom_full_final7.sh	/^function __promptline_last_exit_code {$/;"	f	language:Sh
+__promptline_left_prompt	/home/tesapre/.shell_prompt_custom_full_final7.sh	/^function __promptline_left_prompt {$/;"	f	language:Sh
+__promptline_ps1	/home/tesapre/.shell_prompt_custom_full_final7.sh	/^function __promptline_ps1 {$/;"	f	language:Sh
+__promptline_right_prompt	/home/tesapre/.shell_prompt_custom_full_final7.sh	/^function __promptline_right_prompt {$/;"	f	language:Sh
+__promptline_vcs_branch	/home/tesapre/.shell_prompt_custom_full_final7.sh	/^function __promptline_vcs_branch {$/;"	f	language:Sh
+__promptline_wrapper	/home/tesapre/.shell_prompt_custom_full_final7.sh	/^function __promptline_wrapper {$/;"	f	language:Sh
