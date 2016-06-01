@@ -79,3 +79,11 @@ Switch to the `~/.vim` directory, and fetch submodules:
     vim +PluginInstall +qall
     "
 
+  279  ln -s dotfiles/* .
+  280  lall
+  281  for file in !(addons|dotfiles) ; do mv "$file" ".$file" ; done
+
+NOTE THAT mintty needs to be run as "mintty -" so that it sources the bash scripts that add cygwin's bin 
+folder to its path
+Else it will not find most binaries like ls and cd .
+

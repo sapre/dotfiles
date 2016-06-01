@@ -1,14 +1,3 @@
-cd Tests/
-lall
-mv *.svh *.sv
-mv test_1.svh  test_1.sv
-mv test_2.svh  test_2.sv
-mv test_3.svh  test_3.sv
-mv test_4.svh  test_4.sv
-lall
-cd ..
-lall
-cd Scripts/
 lall
 cd ..
 lall
@@ -498,3 +487,14 @@ exit
 tmux ls
 tmux
 exit
+cd ~
+lall
+ls
+ls -alh
+ls
+vim
+cd ~
+ls
+lall
+bash -l
+mintty -
