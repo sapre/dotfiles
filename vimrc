@@ -272,3 +272,7 @@ let g:promptline_preset = {
 "doesnt work unless you disable powerline symbols
 let g:promptline_symbols = {
 			\'dir_sep' : '/'}
+
+" associate *.proj with xml filetype
+au BufRead,BufNewFile *.proj setfiletype xml
+au BufRead,BufNewFile *.props setfiletype xml

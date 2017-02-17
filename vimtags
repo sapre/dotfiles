@@ -1,30 +1,91 @@
 !_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
 <C-o>	/home/tesapre/.dotfiles/.vimrc	/^nmap <C-o> O <Esc>j$/;"	m	language:Vim
+<C-o>	/home/tesapre/.vimrc	/^nmap <C-o> O <Esc>j$/;"	m	language:Vim
 <CR>	/home/tesapre/.dotfiles/.vimrc	/^nmap <CR> o<Esc>k$/;"	m	language:Vim
+<CR>	/home/tesapre/.vimrc	/^nmap <CR> o<Esc>k$/;"	m	language:Vim
 <F3>	/home/tesapre/.dotfiles/.vimrc	/^nnoremap <F3> :NumbersToggle<CR>$/;"	m	language:Vim
+<F3>	/home/tesapre/.vimrc	/^nnoremap <F3> :NumbersToggle<CR>$/;"	m	language:Vim
 <F4>	/home/tesapre/.dotfiles/.vimrc	/^nnoremap <F4> :NumbersOnOff<CR>$/;"	m	language:Vim
+<F4>	/home/tesapre/.vimrc	/^nnoremap <F4> :NumbersOnOff<CR>$/;"	m	language:Vim
 <F5>	/home/tesapre/.dotfiles/.vimrc	/^nnoremap <silent> <F5> :let _s=@\/<Bar>:%s\/\\s\\+$\/\/e<Bar>:let @\/=_s<Bar>:nohl<CR>$/;"	m	language:Vim
+<F5>	/home/tesapre/.vimrc	/^nnoremap <silent> <F5> :let _s=@\/<Bar>:%s\/\\s\\+$\/\/e<Bar>:let @\/=_s<Bar>:nohl<CR>$/;"	m	language:Vim
+APPRTL	/cygdrive/c/AzureGit/SmartNIC/HW/src/Hw/Apps/PC2/Simulation/Makefile	/^APPRTL=$(APPSRC)\/RTL$/;"	m	language:Make
 APPRTL	/cygdrive/c/Catapult_TFS/Hardware/Apps/Pcap/Simulation/Makefile	/^APPRTL=$(APPSRC)\/RTL$/;"	m	language:Make
 APPRTL	/cygdrive/c/Catapult_TFS/Hardware/Apps/PcapV2/Simulation/Makefile	/^APPRTL=$(APPSRC)\/RTL$/;"	m	language:Make
+APPSRC	/cygdrive/c/AzureGit/SmartNIC/HW/src/Hw/Apps/PC2/Simulation/Makefile	/^APPSRC=$(CATASRC)\/SmartNIC\/HW\/src\/HW\/Apps\/PC2$/;"	m	language:Make
 APPSRC	/cygdrive/c/Catapult_TFS/Hardware/Apps/Pcap/Simulation/Makefile	/^APPSRC=$(CATASRC)\/Hardware\/Apps\/Pcap$/;"	m	language:Make
 APPSRC	/cygdrive/c/Catapult_TFS/Hardware/Apps/PcapV2/Simulation/Makefile	/^APPSRC=$(CATASRC)\/Hardware\/Apps\/PcapV2$/;"	m	language:Make
+APP_SYNPROJ	/cygdrive/c/AzureGit/SmartNIC/HW/src/Hw/Apps/PC2/Simulation/Makefile	/^APP_SYNPROJ=$(APPSRC)\/PikesPeak$/;"	m	language:Make
 APP_SYNPROJ	/cygdrive/c/Catapult_TFS/Hardware/Apps/Pcap/Simulation/Makefile	/^APP_SYNPROJ=$(APPSRC)\/PikesPeak$/;"	m	language:Make
 APP_SYNPROJ	/cygdrive/c/Catapult_TFS/Hardware/Apps/PcapV2/Simulation/Makefile	/^APP_SYNPROJ=$(APPSRC)\/PikesPeak$/;"	m	language:Make
+BusNetworkTB	/cygdrive/c/AzureGit/SmartNIC/HW/src/Hw/Apps/PC2/Simulation/PC2_Module_Tests/TestBenches.lst	/^BusNetworkTB$/;"	l	language:Asm
+BusStopTB	/cygdrive/c/AzureGit/SmartNIC/HW/src/Hw/Apps/PC2/Simulation/PC2_Module_Tests/TestBenches.lst	/^BusStopTB$/;"	l	language:Asm
+CATASRC	/cygdrive/c/AzureGit/SmartNIC/HW/src/Hw/Apps/PC2/Simulation/Makefile	/^CATASRC=C:\/AzureGit$/;"	m	language:Make
 CATASRC	/cygdrive/c/Catapult_TFS/Hardware/Apps/Pcap/Simulation/Makefile	/^CATASRC=C:\/Catapult_TFS$/;"	m	language:Make
 CATASRC	/cygdrive/c/Catapult_TFS/Hardware/Apps/PcapV2/Simulation/Makefile	/^CATASRC=C:\/Catapult_TFS$/;"	m	language:Make
+cd_func	/home/tesapre/.bashrc	/^ cd_func ()$/;"	f	language:Sh
+DEV$$device_cleanup	/cygdrive/d/AzOneBr/Azure/Compute-Move/private/Services/Hardware/services/CatapultFPGADriver/CatapultHIPShared/Device.c	/^EVT_WDF_OBJECT_CONTEXT_CLEANUP		DEV$$device_cleanup;	\/\/ Perform any cleanup operations when our device object is being deleted$/;"	v	language:C++
+DEV$$device_cleanup	/cygdrive/d/AzOneBr/Azure/Compute-Move/private/Services/Hardware/services/CatapultFPGADriver/CatapultHIPShared/Device.c	/^VOID DEV$$device_cleanup							\/\/ Perform any cleanup operations when our device object is being deleted$/;"	f	language:C++
+DEV$$find_aer_base_offset	/cygdrive/d/AzOneBr/Azure/Compute-Move/private/Services/Hardware/services/CatapultFPGADriver/CatapultHIPShared/Device.c	/^NTSTATUS DEV$$find_aer_base_offset						\/\/ Find the Advanced Error Reporting structure in the PCIe extended configuration space$/;"	f	language:C++
+DEV$$find_aer_base_offset	/cygdrive/d/AzOneBr/Azure/Compute-Move/private/Services/Hardware/services/CatapultFPGADriver/CatapultHIPShared/Device.c	/^NTSTATUS DEV$$find_aer_base_offset						\/\/ Find the Advanced Error Reporting structure in the PCIe extended configuration space$/;"	p	language:C++	file:
+DEV$$get_our_interface	/cygdrive/d/AzOneBr/Azure/Compute-Move/private/Services/Hardware/services/CatapultFPGADriver/CatapultHIPShared/Device.c	/^NTSTATUS DEV$$get_our_interface						\/\/ Get the address of our DevStack's PDO and BUS_INTERFACE$/;"	f	language:C++
+DEV$$get_our_interface	/cygdrive/d/AzOneBr/Azure/Compute-Move/private/Services/Hardware/services/CatapultFPGADriver/CatapultHIPShared/Device.c	/^NTSTATUS DEV$$get_our_interface						\/\/ Get the address of our parent DevStack's PDO$/;"	p	language:C++	file:
+DEV$$get_parent_interface	/cygdrive/d/AzOneBr/Azure/Compute-Move/private/Services/Hardware/services/CatapultFPGADriver/CatapultHIPShared/Device.c	/^NTSTATUS DEV$$get_parent_interface						\/\/ Get the address of our parent DevStack's PDO$/;"	f	language:C++
+DEV$$get_parent_interface	/cygdrive/d/AzOneBr/Azure/Compute-Move/private/Services/Hardware/services/CatapultFPGADriver/CatapultHIPShared/Device.c	/^NTSTATUS DEV$$get_parent_interface						\/\/ Get the address of our parent DevStack's PDO$/;"	p	language:C++	file:
+DEV$$handle_cleanup	/cygdrive/d/AzOneBr/Azure/Compute-Move/private/Services/Hardware/services/CatapultFPGADriver/CatapultHIPShared/Device.c	/^EVT_WDF_FILE_CLEANUP				DEV$$handle_cleanup;	\/\/ The handle is being closed, so cleanup buffers mapped into the process's address space$/;"	v	language:C++
+DEV$$handle_cleanup	/cygdrive/d/AzOneBr/Azure/Compute-Move/private/Services/Hardware/services/CatapultFPGADriver/CatapultHIPShared/Device.c	/^VOID DEV$$handle_cleanup										\/\/ The handle is being closed, so cleanup buffers mapped into the process's address space$/;"	f	language:C++
+DEV$$handle_create	/cygdrive/d/AzOneBr/Azure/Compute-Move/private/Services/Hardware/services/CatapultFPGADriver/CatapultHIPShared/Device.c	/^EVT_WDF_DEVICE_FILE_CREATE			DEV$$handle_create;		\/\/ A new handle is being opened, so initialize the file handle context$/;"	v	language:C++
+DEV$$handle_create	/cygdrive/d/AzOneBr/Azure/Compute-Move/private/Services/Hardware/services/CatapultFPGADriver/CatapultHIPShared/Device.c	/^VOID DEV$$handle_create									\/\/ A new handle is being opened, so initialize the file handle context$/;"	f	language:C++
+DEV$$interrupt_disable	/cygdrive/d/AzOneBr/Azure/Compute-Move/private/Services/Hardware/services/CatapultFPGADriver/CatapultHIPShared/Device.c	/^EVT_WDF_INTERRUPT_DISABLE			DEV$$interrupt_disable;	\/\/ Disable the device from interrupting the host$/;"	v	language:C++
+DEV$$interrupt_disable	/cygdrive/d/AzOneBr/Azure/Compute-Move/private/Services/Hardware/services/CatapultFPGADriver/CatapultHIPShared/Device.c	/^NTSTATUS DEV$$interrupt_disable							\/\/ Disable the device from interrupting the host$/;"	f	language:C++
+DEV$$interrupt_enable	/cygdrive/d/AzOneBr/Azure/Compute-Move/private/Services/Hardware/services/CatapultFPGADriver/CatapultHIPShared/Device.c	/^EVT_WDF_INTERRUPT_ENABLE			DEV$$interrupt_enable;	\/\/ Enable the device to interrupt the host$/;"	v	language:C++
+DEV$$interrupt_enable	/cygdrive/d/AzOneBr/Azure/Compute-Move/private/Services/Hardware/services/CatapultFPGADriver/CatapultHIPShared/Device.c	/^NTSTATUS DEV$$interrupt_enable							\/\/ Enable the device to interrupt the host$/;"	f	language:C++
+DEV$$isr	/cygdrive/d/AzOneBr/Azure/Compute-Move/private/Services/Hardware/services/CatapultFPGADriver/CatapultHIPShared/Device.c	/^BOOLEAN DEV$$isr										\/\/ Interrupt Service Routine$/;"	f	language:C++
+DEV$$isr	/cygdrive/d/AzOneBr/Azure/Compute-Move/private/Services/Hardware/services/CatapultFPGADriver/CatapultHIPShared/Device.c	/^EVT_WDF_INTERRUPT_ISR				DEV$$isr;			\/\/ Interrupt Service Routine$/;"	v	language:C++
+DEV$$isr_dpc	/cygdrive/d/AzOneBr/Azure/Compute-Move/private/Services/Hardware/services/CatapultFPGADriver/CatapultHIPShared/Device.c	/^EVT_WDF_INTERRUPT_DPC				DEV$$isr_dpc;		\/\/ DPC callback for after-interrupt processing$/;"	v	language:C++
+DEV$$isr_dpc	/cygdrive/d/AzOneBr/Azure/Compute-Move/private/Services/Hardware/services/CatapultFPGADriver/CatapultHIPShared/Device.c	/^VOID DEV$$isr_dpc										\/\/ DPC callback for after-interrupt processing$/;"	f	language:C++
+DEV$$power_down	/cygdrive/d/AzOneBr/Azure/Compute-Move/private/Services/Hardware/services/CatapultFPGADriver/CatapultHIPShared/Device.c	/^EVT_WDF_DEVICE_D0_EXIT				DEV$$power_down;	\/\/ The device has left the D0 (working) power state, and cannot be accessed (EvtDeviceD0Exit)$/;"	v	language:C++
+DEV$$power_down	/cygdrive/d/AzOneBr/Azure/Compute-Move/private/Services/Hardware/services/CatapultFPGADriver/CatapultHIPShared/Device.c	/^NTSTATUS DEV$$power_down								\/\/ The device has left the D0 (working) power state, and cannot be accessed (EvtDeviceD0Exit)$/;"	f	language:C++
+DEV$$power_up	/cygdrive/d/AzOneBr/Azure/Compute-Move/private/Services/Hardware/services/CatapultFPGADriver/CatapultHIPShared/Device.c	/^EVT_WDF_DEVICE_D0_ENTRY				DEV$$power_up;		\/\/ The device has entered the D0 (working) power state (EvtDeviceD0Entry)$/;"	v	language:C++
+DEV$$power_up	/cygdrive/d/AzOneBr/Azure/Compute-Move/private/Services/Hardware/services/CatapultFPGADriver/CatapultHIPShared/Device.c	/^NTSTATUS DEV$$power_up									\/\/ The device has entered the D0 (working) power state (EvtDeviceD0Entry)$/;"	f	language:C++
+DEV$$prepare_hw	/cygdrive/d/AzOneBr/Azure/Compute-Move/private/Services/Hardware/services/CatapultFPGADriver/CatapultHIPShared/Device.c	/^EVT_WDF_DEVICE_PREPARE_HARDWARE		DEV$$prepare_hw;	\/\/ Performs any operations that are needed to make a device accessible to the driver$/;"	v	language:C++
+DEV$$prepare_hw	/cygdrive/d/AzOneBr/Azure/Compute-Move/private/Services/Hardware/services/CatapultFPGADriver/CatapultHIPShared/Device.c	/^NTSTATUS DEV$$prepare_hw								\/\/ Performs any operations that are needed to make a device accessible to the driver$/;"	f	language:C++
+DEV$$read_config_space_dword	/cygdrive/d/AzOneBr/Azure/Compute-Move/private/Services/Hardware/services/CatapultFPGADriver/CatapultHIPShared/Device.c	/^NTSTATUS DEV$$read_config_space_dword					\/\/ Read 4 bytes of data from the PCIe configuration space of the FPGA or CPU root port $/;"	f	language:C++
+DEV$$read_config_space_dword	/cygdrive/d/AzOneBr/Azure/Compute-Move/private/Services/Hardware/services/CatapultFPGADriver/CatapultHIPShared/Device.c	/^NTSTATUS DEV$$read_config_space_dword					\/\/ Read 4 bytes of data from the PCIe configuration space of the FPGA or CPU root port $/;"	p	language:C++	file:
+DEV$$release_hw	/cygdrive/d/AzOneBr/Azure/Compute-Move/private/Services/Hardware/services/CatapultFPGADriver/CatapultHIPShared/Device.c	/^EVT_WDF_DEVICE_RELEASE_HARDWARE		DEV$$release_hw;	\/\/ Performs any operations that are needed when a device is no longer accessible$/;"	v	language:C++
+DEV$$release_hw	/cygdrive/d/AzOneBr/Azure/Compute-Move/private/Services/Hardware/services/CatapultFPGADriver/CatapultHIPShared/Device.c	/^NTSTATUS DEV$$release_hw								\/\/ Performs any operations that are needed when a device is no longer accessible$/;"	f	language:C++
+DEV$$stratix_v_errata_masking	/cygdrive/d/AzOneBr/Azure/Compute-Move/private/Services/Hardware/services/CatapultFPGADriver/CatapultHIPShared/Device.c	/^NTSTATUS DEV$$stratix_v_errata_masking					\/\/ Write into the configuration space to disable errors erroneously produced by Stratix V PCIe$/;"	f	language:C++
+DEV$$stratix_v_errata_masking	/cygdrive/d/AzOneBr/Azure/Compute-Move/private/Services/Hardware/services/CatapultFPGADriver/CatapultHIPShared/Device.c	/^NTSTATUS DEV$$stratix_v_errata_masking					\/\/ Write into the configuration space to disable errors erroneously produced by Stratix V PCIe$/;"	p	language:C++	file:
+DEV$$write_config_space_dword	/cygdrive/d/AzOneBr/Azure/Compute-Move/private/Services/Hardware/services/CatapultFPGADriver/CatapultHIPShared/Device.c	/^NTSTATUS DEV$$write_config_space_dword					\/\/ Write 4 bytes of data to the PCIe configuration space of the FPGA or CPU root port $/;"	f	language:C++
+DEV$$write_config_space_dword	/cygdrive/d/AzOneBr/Azure/Compute-Move/private/Services/Hardware/services/CatapultFPGADriver/CatapultHIPShared/Device.c	/^NTSTATUS DEV$$write_config_space_dword					\/\/ Write 4 bytes of data to the PCIe configuration space of the FPGA or CPU root port $/;"	p	language:C++	file:
+DEV$device_add	/cygdrive/d/AzOneBr/Azure/Compute-Move/private/Services/Hardware/services/CatapultFPGADriver/CatapultHIPShared/Device.c	/^EVT_WDF_DRIVER_DEVICE_ADD			DEV$device_add;		\/\/ A new instance of our device has been detected$/;"	v	language:C++
+DEV$device_add	/cygdrive/d/AzOneBr/Azure/Compute-Move/private/Services/Hardware/services/CatapultFPGADriver/CatapultHIPShared/Device.c	/^NTSTATUS DEV$device_add									\/\/ A new instance of our device has been detected$/;"	f	language:C++
 g:airline#extensions#whitespace#long_format	/home/tesapre/.dotfiles/.vimrc	/^let g:airline#extensions#whitespace#long_format              = 'L[%s]'$/;"	v	language:Vim
+g:airline#extensions#whitespace#long_format	/home/tesapre/.vimrc	/^let g:airline#extensions#whitespace#long_format              = 'L[%s]'$/;"	v	language:Vim
 g:airline#extensions#whitespace#mixed_indent_file_format	/home/tesapre/.dotfiles/.vimrc	/^let g:airline#extensions#whitespace#mixed_indent_file_format = 'MIF[%s]'$/;"	v	language:Vim
+g:airline#extensions#whitespace#mixed_indent_file_format	/home/tesapre/.vimrc	/^let g:airline#extensions#whitespace#mixed_indent_file_format = 'MIF[%s]'$/;"	v	language:Vim
 g:airline#extensions#whitespace#mixed_indent_format	/home/tesapre/.dotfiles/.vimrc	/^let g:airline#extensions#whitespace#mixed_indent_format      = 'MI[%s]'$/;"	v	language:Vim
+g:airline#extensions#whitespace#mixed_indent_format	/home/tesapre/.vimrc	/^let g:airline#extensions#whitespace#mixed_indent_format      = 'MI[%s]'$/;"	v	language:Vim
 g:airline#extensions#whitespace#trailing_format	/home/tesapre/.dotfiles/.vimrc	/^let g:airline#extensions#whitespace#trailing_format          = 'T[%s]'$/;"	v	language:Vim
+g:airline#extensions#whitespace#trailing_format	/home/tesapre/.vimrc	/^let g:airline#extensions#whitespace#trailing_format          = 'T[%s]'$/;"	v	language:Vim
 g:airline_left_alt_sep	/home/tesapre/.dotfiles/.vimrc	/^let g:airline_left_alt_sep       = ''$/;"	v	language:Vim
+g:airline_left_alt_sep	/home/tesapre/.vimrc	/^let g:airline_left_alt_sep       = ''$/;"	v	language:Vim
 g:airline_left_sep	/home/tesapre/.dotfiles/.vimrc	/^let g:airline_left_sep           = '»'$/;"	v	language:Vim
 g:airline_left_sep	/home/tesapre/.dotfiles/.vimrc	/^let g:airline_left_sep           = '▶'$/;"	v	language:Vim
 g:airline_left_sep	/home/tesapre/.dotfiles/.vimrc	/^let g:airline_left_sep           = ''$/;"	v	language:Vim
+g:airline_left_sep	/home/tesapre/.vimrc	/^let g:airline_left_sep           = '»'$/;"	v	language:Vim
+g:airline_left_sep	/home/tesapre/.vimrc	/^let g:airline_left_sep           = '▶'$/;"	v	language:Vim
+g:airline_left_sep	/home/tesapre/.vimrc	/^let g:airline_left_sep           = ''$/;"	v	language:Vim
 g:airline_powerline_fonts	/home/tesapre/.dotfiles/.vimrc	/^let g:airline_powerline_fonts = 1$/;"	v	language:Vim
+g:airline_powerline_fonts	/home/tesapre/.vimrc	/^let g:airline_powerline_fonts = 1$/;"	v	language:Vim
 g:airline_right_alt_sep	/home/tesapre/.dotfiles/.vimrc	/^let g:airline_right_alt_sep      = ''$/;"	v	language:Vim
+g:airline_right_alt_sep	/home/tesapre/.vimrc	/^let g:airline_right_alt_sep      = ''$/;"	v	language:Vim
 g:airline_right_sep	/home/tesapre/.dotfiles/.vimrc	/^let g:airline_right_sep          = '«'$/;"	v	language:Vim
 g:airline_right_sep	/home/tesapre/.dotfiles/.vimrc	/^let g:airline_right_sep          = '◀'$/;"	v	language:Vim
 g:airline_right_sep	/home/tesapre/.dotfiles/.vimrc	/^let g:airline_right_sep          = ''$/;"	v	language:Vim
+g:airline_right_sep	/home/tesapre/.vimrc	/^let g:airline_right_sep          = '«'$/;"	v	language:Vim
+g:airline_right_sep	/home/tesapre/.vimrc	/^let g:airline_right_sep          = '◀'$/;"	v	language:Vim
+g:airline_right_sep	/home/tesapre/.vimrc	/^let g:airline_right_sep          = ''$/;"	v	language:Vim
 g:airline_symbols	/home/tesapre/.dotfiles/.vimrc	/^	let g:airline_symbols = {}$/;"	v	language:Vim
 g:airline_symbols	/home/tesapre/.dotfiles/.vimrc	/^let g:airline_symbols.branch     = '⎇'$/;"	v	language:Vim
 g:airline_symbols	/home/tesapre/.dotfiles/.vimrc	/^let g:airline_symbols.branch     = ''$/;"	v	language:Vim
@@ -38,23 +99,86 @@ g:airline_symbols	/home/tesapre/.dotfiles/.vimrc	/^let g:airline_symbols.paste  
 g:airline_symbols	/home/tesapre/.dotfiles/.vimrc	/^let g:airline_symbols.readonly   = ''$/;"	v	language:Vim
 g:airline_symbols	/home/tesapre/.dotfiles/.vimrc	/^let g:airline_symbols.space = "\\ua0"$/;"	v	language:Vim
 g:airline_symbols	/home/tesapre/.dotfiles/.vimrc	/^let g:airline_symbols.whitespace = 'Ξ'$/;"	v	language:Vim
+g:airline_symbols	/home/tesapre/.vimrc	/^	let g:airline_symbols = {}$/;"	v	language:Vim
+g:airline_symbols	/home/tesapre/.vimrc	/^let g:airline_symbols.branch     = '⎇'$/;"	v	language:Vim
+g:airline_symbols	/home/tesapre/.vimrc	/^let g:airline_symbols.branch     = ''$/;"	v	language:Vim
+g:airline_symbols	/home/tesapre/.vimrc	/^let g:airline_symbols.linenr     = '¶'$/;"	v	language:Vim
+g:airline_symbols	/home/tesapre/.vimrc	/^let g:airline_symbols.linenr     = '␊'$/;"	v	language:Vim
+g:airline_symbols	/home/tesapre/.vimrc	/^let g:airline_symbols.linenr     = '␤'$/;"	v	language:Vim
+g:airline_symbols	/home/tesapre/.vimrc	/^let g:airline_symbols.linenr     = ''$/;"	v	language:Vim
+g:airline_symbols	/home/tesapre/.vimrc	/^let g:airline_symbols.paste      = 'Þ'$/;"	v	language:Vim
+g:airline_symbols	/home/tesapre/.vimrc	/^let g:airline_symbols.paste      = 'ρ'$/;"	v	language:Vim
+g:airline_symbols	/home/tesapre/.vimrc	/^let g:airline_symbols.paste      = '∥'$/;"	v	language:Vim
+g:airline_symbols	/home/tesapre/.vimrc	/^let g:airline_symbols.readonly   = ''$/;"	v	language:Vim
+g:airline_symbols	/home/tesapre/.vimrc	/^let g:airline_symbols.space = "\\ua0"$/;"	v	language:Vim
+g:airline_symbols	/home/tesapre/.vimrc	/^let g:airline_symbols.whitespace = 'Ξ'$/;"	v	language:Vim
 g:easy_align_delimiters	/home/tesapre/.dotfiles/.vimrc	/^let g:easy_align_delimiters = {$/;"	v	language:Vim
+g:easy_align_delimiters	/home/tesapre/.vimrc	/^let g:easy_align_delimiters = {$/;"	v	language:Vim
 g:promptline_preset	/home/tesapre/.dotfiles/.vimrc	/^let g:promptline_preset = {$/;"	v	language:Vim
+g:promptline_preset	/home/tesapre/.vimrc	/^let g:promptline_preset = {$/;"	v	language:Vim
 g:promptline_symbols	/home/tesapre/.dotfiles/.vimrc	/^let g:promptline_symbols = {$/;"	v	language:Vim
+g:promptline_symbols	/home/tesapre/.vimrc	/^let g:promptline_symbols = {$/;"	v	language:Vim
 g:rehash256	/home/tesapre/.dotfiles/.vimrc	/^let g:rehash256 = 1$/;"	v	language:Vim
+g:rehash256	/home/tesapre/.vimrc	/^let g:rehash256 = 1$/;"	v	language:Vim
 ga	/home/tesapre/.dotfiles/.vimrc	/^nmap ga <Plug>(EasyAlign)$/;"	m	language:Vim
+ga	/home/tesapre/.vimrc	/^nmap ga <Plug>(EasyAlign)$/;"	m	language:Vim
+getSoftShellParam	/cygdrive/c/AzureGit/SmartNIC/HW/src/Hw/SoftShells/softshell_parameters.tcl	/^proc getSoftShellParam {param} {$/;"	p	language:Tcl
 git_sha	/home/tesapre/.shell_prompt_custom_full_final7.sh	/^function git_sha {$/;"	f	language:Sh
 git_sha_slice	/home/tesapre/.dotfiles/.vimrc	/^let git_sha_slice = {$/;"	v	language:Vim
+git_sha_slice	/home/tesapre/.vimrc	/^let git_sha_slice = {$/;"	v	language:Vim
 git_stash_num	/home/tesapre/.dotfiles/.vimrc	/^let git_stash_num = {$/;"	v	language:Vim
+git_stash_num	/home/tesapre/.vimrc	/^let git_stash_num = {$/;"	v	language:Vim
 git_stash_number	/home/tesapre/.shell_prompt_custom_full_final7.sh	/^function git_stash_number {$/;"	f	language:Sh
+INITGUID	/cygdrive/d/AzOneBr/Azure/Compute-Move/private/Services/Hardware/services/CatapultFPGADriver/CatapultHIPShared/Device.c	19;"	d	language:C++	file:
+MatrixArbTB	/cygdrive/c/AzureGit/SmartNIC/HW/src/Hw/Apps/PC2/Simulation/PC2_Module_Tests/TestBenches.lst	/^MatrixArbTB$/;"	l	language:Asm
+Pcap_tb	/cygdrive/c/AzureGit/SmartNIC/HW/src/Hw/Apps/PC2/Simulation/PC2_Top_Tests/tests.lst	/^Pcap_tb$/;"	l	language:Asm
+PcieArbTB	/cygdrive/c/AzureGit/SmartNIC/HW/src/Hw/Apps/PC2/Simulation/PC2_Module_Tests/TestBenches.lst	/^PcieArbTB$/;"	l	language:Asm
+PCIE_AER_CAPABILITY_ID	/cygdrive/d/AzOneBr/Azure/Compute-Move/private/Services/Hardware/services/CatapultFPGADriver/CatapultHIPShared/Device.c	105;"	d	language:C++	file:
+PCIE_AER_CORRECTABLE_MASK_OFFSET	/cygdrive/d/AzOneBr/Azure/Compute-Move/private/Services/Hardware/services/CatapultFPGADriver/CatapultHIPShared/Device.c	108;"	d	language:C++	file:
+PCIE_AER_MALFORMED_TLP_BIT	/cygdrive/d/AzOneBr/Azure/Compute-Move/private/Services/Hardware/services/CatapultFPGADriver/CatapultHIPShared/Device.c	110;"	d	language:C++	file:
+PCIE_AER_REPLAY_TIMER_TIMEOUT_BIT	/cygdrive/d/AzOneBr/Azure/Compute-Move/private/Services/Hardware/services/CatapultFPGADriver/CatapultHIPShared/Device.c	109;"	d	language:C++	file:
+PCIE_AER_UNCORRECTABLE_MASK_OFFSET	/cygdrive/d/AzOneBr/Azure/Compute-Move/private/Services/Hardware/services/CatapultFPGADriver/CatapultHIPShared/Device.c	106;"	d	language:C++	file:
+PCIE_AER_UNCORRECTABLE_SEVERITY_OFFSET	/cygdrive/d/AzOneBr/Azure/Compute-Move/private/Services/Hardware/services/CatapultFPGADriver/CatapultHIPShared/Device.c	107;"	d	language:C++	file:
+PCIE_EXTENDED_CONFIG_SPACE_START	/cygdrive/d/AzOneBr/Azure/Compute-Move/private/Services/Hardware/services/CatapultFPGADriver/CatapultHIPShared/Device.c	104;"	d	language:C++	file:
+PCIE_SUBVENDOR_SUBSYS_ID_OFFSET	/cygdrive/d/AzOneBr/Azure/Compute-Move/private/Services/Hardware/services/CatapultFPGADriver/CatapultHIPShared/Device.c	111;"	d	language:C++	file:
+PC_BUF_MASK_ADDR	/cygdrive/c/Catapult_TFS/Software/SDK/Examples/Pcap/Pcap_autogen.h	29;"	d	language:C++
+PC_BUF_SIZE_CUR_ADDR	/cygdrive/c/Catapult_TFS/Software/SDK/Examples/Pcap/Pcap_autogen.h	43;"	d	language:C++
+PC_BUF_SIZE_NXT_ADDR	/cygdrive/c/Catapult_TFS/Software/SDK/Examples/Pcap/Pcap_autogen.h	44;"	d	language:C++
+PC_CAP_INTERFACE_ADDR	/cygdrive/c/Catapult_TFS/Software/SDK/Examples/Pcap/Pcap_autogen.h	27;"	d	language:C++
+PC_CAP_LIMIT_ADDR	/cygdrive/c/Catapult_TFS/Software/SDK/Examples/Pcap/Pcap_autogen.h	28;"	d	language:C++
+PC_CYCLE_ADDR	/cygdrive/c/Catapult_TFS/Software/SDK/Examples/Pcap/Pcap_autogen.h	35;"	d	language:C++
+PC_DRAIN_ADDR	/cygdrive/c/Catapult_TFS/Software/SDK/Examples/Pcap/Pcap_autogen.h	25;"	d	language:C++
+PC_ERROR_REG_ADDR	/cygdrive/c/Catapult_TFS/Software/SDK/Examples/Pcap/Pcap_autogen.h	38;"	d	language:C++
+PC_IDLE_ADDR	/cygdrive/c/Catapult_TFS/Software/SDK/Examples/Pcap/Pcap_autogen.h	26;"	d	language:C++
+PC_NIC_CNT_END_ADDR	/cygdrive/c/Catapult_TFS/Software/SDK/Examples/Pcap/Pcap_autogen.h	34;"	d	language:C++
+PC_NIC_CNT_START_ADDR	/cygdrive/c/Catapult_TFS/Software/SDK/Examples/Pcap/Pcap_autogen.h	33;"	d	language:C++
+PC_OVERFLOW_REG_ADDR	/cygdrive/c/Catapult_TFS/Software/SDK/Examples/Pcap/Pcap_autogen.h	36;"	d	language:C++
+PC_PCIE_DIRTY_ADDR	/cygdrive/c/Catapult_TFS/Software/SDK/Examples/Pcap/Pcap_autogen.h	41;"	d	language:C++
+PC_PCIE_EMPTY_ADDR	/cygdrive/c/Catapult_TFS/Software/SDK/Examples/Pcap/Pcap_autogen.h	40;"	d	language:C++
+PC_PCIE_IDLE_PARTS_ADDR	/cygdrive/c/Catapult_TFS/Software/SDK/Examples/Pcap/Pcap_autogen.h	42;"	d	language:C++
+PC_PCIE_PASSTHROUGH_ADDR	/cygdrive/c/Catapult_TFS/Software/SDK/Examples/Pcap/Pcap_autogen.h	30;"	d	language:C++
+PC_PCIE_RDEN_ADDR	/cygdrive/c/Catapult_TFS/Software/SDK/Examples/Pcap/Pcap_autogen.h	39;"	d	language:C++
+PC_PCIE_SLOT_OUT_ADDR	/cygdrive/c/Catapult_TFS/Software/SDK/Examples/Pcap/Pcap_autogen.h	37;"	d	language:C++
+PC_TOR_CNT_END_ADDR	/cygdrive/c/Catapult_TFS/Software/SDK/Examples/Pcap/Pcap_autogen.h	32;"	d	language:C++
+PC_TOR_CNT_START_ADDR	/cygdrive/c/Catapult_TFS/Software/SDK/Examples/Pcap/Pcap_autogen.h	31;"	d	language:C++
+QUARTUS_SH	/cygdrive/c/AzureGit/SmartNIC/HW/src/Hw/Apps/PC2/Simulation/Makefile	/^QUARTUS_SH=$(TOOL_QUARTUS)\/quartus\/bin64\/quartus_sh.exe$/;"	m	language:Make
 QUARTUS_SH	/cygdrive/c/Catapult_TFS/Hardware/Apps/Pcap/Simulation/Makefile	/^QUARTUS_SH=$(TOOL_QUARTUS)\/quartus\/bin64\/quartus_sh.exe$/;"	m	language:Make
 QUARTUS_SH	/cygdrive/c/Catapult_TFS/Hardware/Apps/PcapV2/Simulation/Makefile	/^QUARTUS_SH=$(TOOL_QUARTUS)\/quartus\/bin64\/quartus_sh.exe$/;"	m	language:Make
+setSoftShellParam	/cygdrive/c/AzureGit/SmartNIC/HW/src/Hw/SoftShells/softshell_parameters.tcl	/^proc setSoftShellParam {param value} {$/;"	p	language:Tcl
+setSoftShell_pcapConfig	/cygdrive/c/AzureGit/SmartNIC/HW/src/Hw/SoftShells/softshell_parameters.tcl	/^proc setSoftShell_pcapConfig {softshell_version value} {$/;"	p	language:Tcl
+setSoftShell_roleClock	/cygdrive/c/AzureGit/SmartNIC/HW/src/Hw/SoftShells/softshell_parameters.tcl	/^proc setSoftShell_roleClock {value} {$/;"	p	language:Tcl
+show_hier	/home/tesapre/example.pl	/^sub show_hier {$/;"	s	language:Perl
+sigdir	/home/tesapre/example.pl	/^sub sigdir {$/;"	s	language:Perl
+SIMTYPE	/cygdrive/c/AzureGit/SmartNIC/HW/src/Hw/Apps/PC2/Simulation/Makefile	/^SIMTYPE=Text$/;"	m	language:Make
 SIMTYPE	/cygdrive/c/Catapult_TFS/Hardware/Apps/Pcap/Simulation/Makefile	/^SIMTYPE=Text$/;"	m	language:Make
 SIMTYPE	/cygdrive/c/Catapult_TFS/Hardware/Apps/PcapV2/Simulation/Makefile	/^SIMTYPE=Text$/;"	m	language:Make
+TOOL_MODELSIM	/cygdrive/c/AzureGit/SmartNIC/HW/src/Hw/Apps/PC2/Simulation/Makefile	/^TOOL_MODELSIM=E:\\questasim64_10.4c$/;"	m	language:Make
 TOOL_MODELSIM	/cygdrive/c/Catapult_TFS/Hardware/Apps/Pcap/Simulation/Makefile	/^TOOL_MODELSIM=C:\\questasim64_10.4c$/;"	m	language:Make
 TOOL_MODELSIM	/cygdrive/c/Catapult_TFS/Hardware/Apps/PcapV2/Simulation/Makefile	/^TOOL_MODELSIM=C:\\questasim64_10.4c$/;"	m	language:Make
+TOOL_QUARTUS	/cygdrive/c/AzureGit/SmartNIC/HW/src/Hw/Apps/PC2/Simulation/Makefile	/^TOOL_QUARTUS=E:\\altera\\15.1$/;"	m	language:Make
 TOOL_QUARTUS	/cygdrive/c/Catapult_TFS/Hardware/Apps/Pcap/Simulation/Makefile	/^TOOL_QUARTUS=C:\\altera\\15.1$/;"	m	language:Make
 TOOL_QUARTUS	/cygdrive/c/Catapult_TFS/Hardware/Apps/PcapV2/Simulation/Makefile	/^TOOL_QUARTUS=C:\\altera\\15.1$/;"	m	language:Make
+__PCAP_AUTOGEN_H__	/cygdrive/c/Catapult_TFS/Software/SDK/Examples/Pcap/Pcap_autogen.h	2;"	d	language:C++
 __promptline	/home/tesapre/.shell_prompt_custom_full_final7.sh	/^function __promptline {$/;"	f	language:Sh
 __promptline_battery	/home/tesapre/.shell_prompt_custom_full_final7.sh	/^function __promptline_battery {$/;"	f	language:Sh
 __promptline_cwd	/home/tesapre/.shell_prompt_custom_full_final7.sh	/^function __promptline_cwd {$/;"	f	language:Sh
